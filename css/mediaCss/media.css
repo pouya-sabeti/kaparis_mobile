@@ -1,0 +1,28 @@
+.app {
+  text-align: center;
+  width: 1300px;
+}
+/* media */
+@media (max-width: 1299.98px) {
+  .app {
+    width: 1092px;
+  }
+}
+@media (max-width: 1091.98px) {
+  .app {
+    width: 868px;
+  }
+}
+@media (max-width: 867.98px) {
+  .app {
+    width: 676px;
+  }
+
+}
+@media (max-width: 75.98px) {
+  .app {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+  
+}
