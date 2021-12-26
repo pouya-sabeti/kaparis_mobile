@@ -45,9 +45,13 @@ grid-template-columns: 10% 65% 25%;
     height: 100%;
 
 }
-.logo-div h1{
+.logo-div-h1{
     font-size: 28px;
     color: #425664;
+    transition: all .5s;
+}
+.display-none{
+    display: none;
 }
 .search-box-div{
     width: 100%;
@@ -56,14 +60,31 @@ grid-template-columns: 10% 65% 25%;
     text-align: right;
 
 }
-.search-box-div i{
+.btn-bars{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin: 18px 0;
+}
+.search-box-div i,.search-box-2 i{
   
    transform: translateY(3px) translateX(-50px);
    font-size: 20px;
    color: #8B949B;
-
+z-index: 1000;
 }
-#search{
+.search-box-2 i{
+    transform: translateY(3px) translateX(0px);
+    position: relative;
+}
+#search2{
+    transform: translateX(20px);
+    width: 100% !important;
+    padding: 0 10px !important;
+}
+#search, #search2{
     width: 70%;
     height: 45px;
     border-radius: 5px;
@@ -73,6 +94,7 @@ grid-template-columns: 10% 65% 25%;
     margin: 10px 20px 10px 0;
     transition: all .15s;
 }
+
 #search:focus{
     outline: none;
     box-shadow: 0 0 8px 3px rgb(0 0 0 / 6%);
@@ -259,11 +281,14 @@ position: relative;
 }
 .takhfif-box{
     width: 100%;
+ 
+    overflow-y: auto;
     height: 500px;
     background: #425664;
     padding: 30px 0;
 }
 .box-1{
+    min-width: 1300px;
     width: 100%;
     height: 100%;
     display: grid;
@@ -380,6 +405,24 @@ position: relative;
 .left{
     position: relative;
 }
+.black-page{
+    position: fixed;
+background: rgb(0 0 0 / 45%);
+width: 100vw;
+height: 100vh;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 1%;
+    transition: all .3s ease;
+}
+.visibility-hidden{
+    visibility: hidden !important;
+    opacity: 1% !important;
+    }
+.visibility-show{
+visibility: unset !important;
+opacity: 100% !important;
+}
 .owl-2 .owl-prev span{
     top: 40%;
     left: 1%;
@@ -399,7 +442,7 @@ position: relative;
     background: #fff;
     color: #425664;
     padding: 12px 15px;
-    box-shadow: 6px 1px 15px 2px rgb(0 0 0 / 15%);
+    box-shadow: -6px 1px 15px 2px rgb(0 0 0 / 15%);
  border-top-left-radius: 10px;
  border-bottom-left-radius: 10px;
   position: absolute;
