@@ -97,17 +97,44 @@ transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 display: none;
 }
 .slider-box{
-
+margin-top:20px;
   grid-template-areas: "big-slider big-slider" "big-slider big-slider";
   height: auto;
 }
 .big-slider{
- 
+
   height: auto;
 
 }
 .owl-1 .owl-dot{
-  top: -30px;
+  top: 0;
+}
+.box-1 .left{
+  width: max-content;
+}
+.box-jens{
+  width: 200px;
+  height: auto;
+  
+}
+.name-box-jens{
+  height: auto;
+}
+.caption-box-jens {
+  margin: 0;
+}
+.takhfif-box{
+  height: auto;
+}
+
+.box-1-1 p{
+  padding: 30px 60px;
+}
+.box-1-2 img {
+    width: 50%;
+}
+.owl-2{
+  display: none !important;
 }
 }
 @media (max-width: 675.98px) {
