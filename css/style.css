@@ -18,12 +18,15 @@
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 body {
   font-family: 'iransans', 'KumbhSans' , sans-serif;
  direction: rtl;
  background: #F0F0F1;
   /* background-color: #60b347; */
+ 
 }
 header{
     width: 100%;
@@ -100,7 +103,7 @@ z-index: 1000;
     box-shadow: 0 0 8px 3px rgb(0 0 0 / 6%);
     background: #fff;
 }
-#search::placeholder{
+#search::placeholder,#search2::placeholder{
     color: #8B949B;
     font-size: 13px;
 }
@@ -450,3 +453,126 @@ opacity: 100% !important;
     font-size: 50px;
     transition: all .15s;
 }
+
+/* #footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    /* box-shadow: 0 -10px 20px 5px rgb(0 0 0 / 10%); */
+    border-top: 1px solid rgb(0 0 0 / 20%);
+}
+.top-footer{
+padding-bottom: 40px;
+border-bottom: 1px solid rgb(0 0 0 / 15%);
+
+}
+.up-and-logo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.ss{
+    font-family: 'Lalezar';
+    font-size: 40px;
+
+    color: #425664;
+    transition: all .5s;
+}
+.up{
+    /* width: max-content;
+    height: max-content; */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 30%);
+color: rgb(0 0 0 / 50%);
+margin: 26px 0;
+}
+.tel{
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    color: #454545;
+    
+}
+.tel span{
+    color: rgb(0 0 0 / 30%);
+    margin: 0 20px;
+}
+.menu-footer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 30%;
+    gap: 10px;
+    margin-top: 30px;
+    /* padding-bottom: 40px; */
+border-bottom: 1px solid rgb(0 0 0 / 15%);
+}
+.menu-footer div{
+    /* background: red; */
+    width: 100%;
+    height: 100%;
+}
+.menu-item-1{
+    text-align: right;
+}
+.menu-item-1 h3{
+color: #454545;
+}
+.menu-item-1 a{
+   color: #868686;
+   margin: 20px 0;
+   text-decoration: none;
+   display: block;
+    }
+    #email{
+        width: 70%;
+        height: 45px;
+        border-radius: 5px;
+        background: #F0F0F1;
+        border: none;
+        padding: 0 20px;
+        margin: 30px 0;
+        transition: all .15s;
+    }
+    #email:focus{
+        outline: none;
+    }
+    #email::placeholder{
+        color: #8B949B;
+        font-size: 13px;
+    }
+    #submit-email{
+        width: 15%;
+        height: 45px;
+        border-radius: 5px;
+        background: #c4c4c4;
+        color: #fff;
+        border: none;
+        transition: all .15s;
+    }
+    #submit-email:hover{
+ background: #425664;
+    }
+    .logo-etemad{
+        border-bottom: 1px solid rgb(0 0 0 / 15%);
+    }
+    .copy-r{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+padding: 15px 0;
+        color: #686868;
+
+    }
+    .copy-r a{
+   text-decoration: none;
+   border-bottom: 1px solid #686868;
+        color: #686868;
+        
+    }
