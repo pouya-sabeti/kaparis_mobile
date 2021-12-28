@@ -8,6 +8,14 @@ function close_nav(){
     document.querySelector('.black-page').classList.remove("visibility-show");
     document.querySelector('.ss').classList.remove('visibility-hidden');
 }
+function open_login(){
+    document.querySelector('.pop-up-panel').classList.add("show-pop-up");
+    document.querySelector('.black-page-2').classList.add("visibility-show");
+}
+function close_pop_up(){
+    document.querySelector('.pop-up-panel').classList.remove("show-pop-up");
+    document.querySelector('.black-page-2').classList.remove("visibility-show");
+}
 // var myvar = setInterval(time,10);
 //        function time(){
         

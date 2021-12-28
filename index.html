@@ -20,6 +20,30 @@
   </head>
   <body>
       <div class="black-page" onclick="close_nav()"></div>
+      <div class="black-page-2" onclick="close_pop_up()"></div>
+      <div class="pop-up-panel">
+        <div class="top-login">
+          <div style="width: 100%; text-align: right;">
+          <h3>ورود</h3>
+        </div>
+          <div style="width: 100%; text-align: left;">
+          <button onclick="close_pop_up()">X</button>
+        </div>
+        </div>
+        <div class="main-login">
+          <form action="#">
+            <label for="username" id="for_user">ایمیل خود را وارد کنید:</label>
+            <input type="email" name="username" id="username">
+            <label for="password" id="for_pass">رمز عبور خود را وارد کنید:</label>
+            <input type="password" name="password" id="password">
+          
+            <input type="checkbox" name="check" id="check">
+            <label for="check" id="for-check">من را به خواطر بسپار</label>
+            <input type="submit" name="submit-login" id="submit-login" value="ورود">
+          </form>
+        </div>
+        <p>حساب کاربری ندارید؟ <a href="#">از اینجا ثبت نام کنید</a></p>
+      </div>
     <header>
       <div class="app">
         <div class="header">
@@ -42,7 +66,7 @@
             </div>
             <div class="button-login-and-card-div">
               <div style="width: 100%; text-align: left" class="div-b">
-                <div class="login-or-singup-button">
+                <div class="login-or-singup-button"  onclick="open_login()">
                   <i class="fas fa-user"></i>
                   <p>ورود به حساب کاربری</p>
                 </div>
@@ -70,9 +94,9 @@
                 class="login-or-cart-2 dispaly-inline"
            
               >
-                <div class="dispaly-inline"><a href="" style="color: #425664;"><i style="display: inline-block;     transform: translateY(5px);
+                <div class="dispaly-inline"><a href=""  style="color: #425664;"><i style="display: inline-block;     transform: translateY(5px);
                     font-size: 20px;
-                    margin-left: 4px;" class="fas fa-sign-in-alt" sty></i><p style="margin-top: 20px; display: inline-block;">ورود</p></a> </div>
+                    margin-left: 4px;" class="fas fa-sign-in-alt i-login" sty></i><p style="margin-top: 20px; display: inline-block;">ورود</p></a> </div>
                
                 
                 <div class="hr-y dispaly-inline"></div>
@@ -389,7 +413,7 @@
   <div class="menu-item-1">
     <h3>منو</h3>
     <a href="#">صفحه اصلی</a>
-    <a href="#">ورود ، ثبت نام</a>
+    <a onclick="open_login()">ورود ، ثبت نام</a>
     <a href="#">گوشی</a>
     <a href="#">لوازم جانبی</a>
   </div>

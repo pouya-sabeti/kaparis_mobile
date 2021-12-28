@@ -148,6 +148,9 @@ margin-top:20px;
     width: calc(100% - 30px);
     padding: 0 15px;
   }
+  .i-login{
+    display: none !important;
+  }
   
   
 }
