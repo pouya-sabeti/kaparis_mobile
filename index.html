@@ -139,6 +139,19 @@
             <img src="img/2-slider.jpg" alt="" />
           </div>
         </div>
+        <div class="owl-carousel owl-3 list-box">
+          <div class="list-box-item"><img src="img/Fhone.jpg" alt="">
+          <p>گوشی موبایل</p>
+          </div>
+          <div class="list-box-item"><img src="img/tablet.jpg" alt="">
+            <p>تبلت</p></div>
+          <div class="list-box-item"><img src="img/headFhone.jpg" alt="">
+            <p>هدفون و هندرفری</p></div>
+          <div class="list-box-item"><img src="img/spiker.jpg" alt="">
+            <p>اسپیکر</p></div>
+          <div class="list-box-item"><img src="img/gard.jpg" alt="">
+            <p>گارد موبایل</p></div>
+        </div>
       </div>
       <div class="takhfif-box">
         <div class="app">
@@ -453,6 +466,9 @@
           loop: true,
           dots: true,
           nav: false,
+          autoplay:true,
+autoplayTimeout:4000,
+autoplayHoverPause:true,
           responsive:{
         867:{
             nav:true
@@ -464,7 +480,7 @@
       $(document).ready(function () {
         $(".owl-2").owlCarousel({
           items: 4,
-          loop: true,
+          loop: false,
           dots: false,
           nav: true,
           responsive: {
@@ -480,6 +496,29 @@
             500: {
               items: 1,
             },
+          },
+        });
+      });
+      $(document).ready(function () {
+        $(".owl-3").owlCarousel({
+          items: 2,
+          loop: true,
+          dots: false,
+          nav: false,
+          autoplay:true,
+autoplayTimeout:4000,
+autoplayHoverPause:true,
+          responsive: {
+            1200: {
+              items: 5,
+            },
+            900: {
+              items: 4,
+            },
+            700: {
+              items: 3,
+            },
+       
           },
         });
       });

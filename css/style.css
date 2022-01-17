@@ -673,3 +673,21 @@ padding: 15px 0;
         text-decoration: none;
         border-bottom: 1px solid #425664;
     }
+    .list-box{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        margin-bottom: 15px;
+    }
+    .list-box-item{
+        width: 60%
+    }
+    .list-box-item p{
+        margin: 5px; 
+        color: #425664;
+        font-size: 18px;
+    }
+    .list-box-item img{
+        width: 100%;
+        border-radius: 18px;
+    }
