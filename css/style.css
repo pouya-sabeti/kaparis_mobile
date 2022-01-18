@@ -31,7 +31,7 @@ body {
 header{
     width: 100%;
     height: auto;
-
+    position: relative;
     background: #fff;
     box-shadow: 1px 13px 20px 4px rgb(0 0 0 / 6%);
 }
@@ -169,20 +169,67 @@ z-index: 1000;
     width: 100%;
     text-align: right;
     padding: 5px 10px;
-    padding-bottom: 20px;
+
 }
 .bottom-header ul{
     list-style: none;
+   
 }
 .bottom-header ul li{
     display:  inline-block;
+    padding: 5px 0 15px 0;
 }
 .bottom-header ul li a{
     color: var(--color-primary);
     margin: 20px 10px;
     text-decoration: none;
 }
-
+.list-open-Fhone{
+    position: absolute;
+    z-index: 100;
+    top: 110px;
+    right: 0;
+    width: 98.5vw;
+    height: 400px;
+    padding: 5px 0;
+    background: #fff;
+display: flex;
+opacity: 1%;
+visibility: hidden;
+transition: all .10s;
+}
+.bottom-header ul li:hover .list-open-Fhone{
+    opacity: 100%;
+visibility: unset;
+}
+.list-open-Fhone ul{
+    display: flex;
+   width: 70%;
+   margin: 0;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.list-open-Fhone ul li{
+    margin: 7px 10px;
+    width: 33%;
+    padding: 0;
+}
+.list-open-Fhone ul li a{
+    font-size: 14px;
+    color: #686868 ;
+}
+.list-open-Fhone ul li span{
+    font-size: 16px;
+    color: #B39B63 !important;
+    margin: 5px 10px;
+    font-weight: 800;
+}
+.img-open-list img{
+    width: 100%;
+}
 /* main */
 
 .box-one{
