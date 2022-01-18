@@ -35,6 +35,9 @@ header{
     background: #fff;
     box-shadow: 1px 13px 20px 4px rgb(0 0 0 / 6%);
 }
+.margin-b-60{
+    margin-bottom: 60px !important;
+}
 .top-header{
     width: 100%;
     height: auto;
@@ -48,9 +51,12 @@ grid-template-columns: 10% 65% 25%;
     height: 100%;
 
 }
+:root{
+    --color-primary: #425664;
+}
 .logo-div-h1{
     font-size: 28px;
-    color: #425664;
+    color: var(--color-primary);
     transition: all .5s;
 }
 .display-none{
@@ -120,14 +126,14 @@ z-index: 1000;
     border-radius: 5px;
     background: none;
     border: 1px solid #4256641f;
-    color: #425664;
+    color: var(--color-primary);
     padding:  12px;
     margin: 10px 0;
     display: inline-block;
     transition: all .15s ease;
 }
 .login-or-singup-button:hover{
-    background: #425664;
+    background: var(--color-primary);
    
     color: #fff;
 }
@@ -172,7 +178,7 @@ z-index: 1000;
     display:  inline-block;
 }
 .bottom-header ul li a{
-    color: #425664;
+    color: var(--color-primary);
     margin: 20px 10px;
     text-decoration: none;
 }
@@ -267,7 +273,7 @@ border-radius: 10px;
     transition: all .15s;
 }
 .owl-1 .owl-prev span:hover,.owl-1 .owl-next span:hover,.owl-4 .owl-prev span:hover,.owl-4 .owl-next span:hover{
-    background: #425664;
+    background: var(--color-primary);
 }
 .owl-1 .owl-dot{
 position: relative;
@@ -279,7 +285,7 @@ position: relative;
     border-radius: 50%;
 }
 .owl-1 .owl-dot.active{
-    background: #425664 !important;
+    background: var(--color-primary) !important;
     width: 15px !important;
     height: 15px !important;
 }
@@ -289,7 +295,7 @@ position: relative;
     overflow-y: hidden;
     overflow-x: auto;
     height: 500px;
-    background: #425664;
+    background: var(--color-primary);
     padding: 30px 0;
     
 }
@@ -397,9 +403,9 @@ position: relative;
     height: 50px;
     background: none;
     text-decoration: none;
-    color: #425664;
+    color: var(--color-primary);
     border-radius: 5px;
-    border: 1px solid #425664;
+    border: 1px solid var(--color-primary);
     transition: all .15s ease;
 }
 .kharid-a:hover{
@@ -435,7 +441,7 @@ opacity: 100% !important;
     background: #fff;
     box-shadow: 6px 1px 15px 2px rgb(0 0 0 / 15%);
     padding: 12px 15px;
-  color: #425664;
+  color: var(--color-primary);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   position: absolute;
@@ -446,7 +452,7 @@ opacity: 100% !important;
     top: 40%;
     right: 0%;
     background: #fff;
-    color: #425664;
+    color: var(--color-primary);
     padding: 12px 15px;
     box-shadow: -6px 1px 15px 2px rgb(0 0 0 / 15%);
  border-top-left-radius: 10px;
@@ -479,7 +485,7 @@ border-bottom: 1px solid rgb(0 0 0 / 15%);
     font-family: 'Lalezar';
     font-size: 40px;
 
-    color: #425664;
+    color: var(--color-primary);
     transition: all .5s;
 }
 .up{
@@ -559,7 +565,7 @@ color: #454545;
         transition: all .15s;
     }
     #submit-email:hover{
- background: #425664;
+ background: var(--color-primary);
     }
     .logo-etemad{
         border-bottom: 1px solid rgb(0 0 0 / 15%);
@@ -606,7 +612,7 @@ padding: 15px 0;
         border-bottom: 1px solid rgb(0 0 0 / 15%);
         display: grid;
         grid-template-columns: 50% 50%;
-        color: #425664;
+        color: var(--color-primary);
     }
     .top-login button{ cursor: pointer;
         width: 20px;
@@ -642,12 +648,12 @@ padding: 15px 0;
     }
     #for_user,#for_pass{
         display: block;
-        color: #425664;
+        color: var(--color-primary);
         margin: 10px 0;
         font-size: 14px;
     }
     #for-check{
-        color: #425664;
+        color: var(--color-primary);
         font-size: 14px;
     }
     #check{
@@ -659,20 +665,20 @@ padding: 15px 0;
         height: 50px;
         border: none;
         color: #fff;
-        background: #425664;
+        background: var(--color-primary);
         border-radius: 10px;
 
     }
     .pop-up-panel p{
         font-size: 15px;
-        color: #425664;
+        color: var(--color-primary);
         margin: 20px 0;
     }
     .pop-up-panel p a{
         font-size: 15px;
-        color: #425664;
+        color: var(--color-primary);
         text-decoration: none;
-        border-bottom: 1px solid #425664;
+        border-bottom: 1px solid --color-primary;
     }
     .list-box{
         width: 100%;
@@ -685,7 +691,7 @@ padding: 15px 0;
     }
     .list-box-item p{
         margin: 5px; 
-        color: #425664;
+        color: var(--color-primary);
         font-size: 18px;
     }
     .list-box-item img{
@@ -695,13 +701,13 @@ padding: 15px 0;
     .hr-h{
         width: 100%;
         height: 2px;
-        background: #425664;
+        background: var(--color-primary);
         margin: 50px 0;
         position: relative;
     }
     .hr-h h3{
         background: #F0F0F1;
-        color: #425664;
+        color: var(--color-primary);
         display: inline;
         width: 150px;
     position: absolute;
@@ -732,7 +738,7 @@ padding: 15px 0;
     .title-Flagship-box-item p{
         margin: 0 20px;
         margin-bottom: 20px;
-        color: #425664;
+        color: var(--color-primary);
      
     }
     .Specifications-Flagship-box-item{
@@ -755,20 +761,72 @@ margin-bottom: 20px;
      
     }
     .Specifications-Flagship-box-item div i{
-        font-size: 30px;
+        font-size: 22px;
         margin-bottom: 10px;
-        color: #425664;
+        color: var(--color-primary);
     }
     .Specifications-Flagship-box-item div p{
      
        margin-bottom: 10px;
-        color: #425664;
+       font-size: 14px;
+        color: var(--color-primary);
     }
     .Price{
-        color: #425664;
+        color: var(--color-primary);
         font-size: 18px;
         margin-bottom: 20px;
     }
     .Price span{
         font-size: 14px;
     }
+    .baner-1{
+        width: 100%;
+display: grid;
+grid-template-columns: 50% 50%;
+margin: 10px 0;
+
+    }
+    .baner-1-item-right{
+        width: 100%;
+        text-align: right;
+    }
+    .baner-1-item-left{
+        width: 100%;
+        text-align: left;
+    }
+    .baner-1-item-left img , .baner-1-item-right img{
+        width: 98%;
+        border-radius: 10px;
+    }
+   
+    .bg-list-1{
+        background: url("../img/rade-1.jpg") center center;
+    }
+    .bg-list-2{
+        background: url("../img/rade-2.jpg") center center;
+    }
+    .bg-list-3{
+        background: url("../img/rade-3.jpg") center center;
+    }
+    .bg-list-4{
+        background: url("../img/rade-4.jpg") center center;
+    }
+    .bg-list-5{
+        background: url("../img/rade-5.jpg") center center;
+    }
+    .bg-list-6{
+        background: url("../img/rade-6.jpg") center center;
+    }
+    .item-list-2{
+        border-radius: 30px;
+       
+       
+        background-size: 100%;
+        width: 150px;
+        height: 150px;
+       
+        transition: all .2s ;
+    }
+.item-list-2:hover{
+    background-size: 110%;
+}
