@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaparis Mobile</title>
+   
+    <link rel="stylesheet" href="../../../css/normalizeCss/normalize.css" />
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <link rel="stylesheet" href="../../../css/mediaCss/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+  </head>
+  <body>
+      <div class="black-page" onclick="close_nav()"></div>
+      <div class="black-page-2" onclick="close_pop_up()"></div>
+      <div class="pop-up-panel">
+        <div class="top-login">
+          <div style="width: 100%; text-align: right;">
+          <h3>ورود</h3>
+        </div>
+          <div style="width: 100%; text-align: left;">
+          <button onclick="close_pop_up()">X</button>
+        </div>
+        </div>
+        <div class="main-login">
+          <form action="#">
+            <label for="username" id="for_user">ایمیل خود را وارد کنید:</label>
+            <input type="email" name="username" id="username">
+            <label for="password" id="for_pass">رمز عبور خود را وارد کنید:</label>
+            <input type="password" name="password" id="password">
+          
+            <input type="checkbox" name="check" id="check">
+            <label for="check" id="for-check">من را به خواطر بسپار</label>
+            <input type="submit" name="submit-login" id="submit-login" value="ورود">
+          </form>
+        </div>
+        <p>حساب کاربری ندارید؟ <a href="#">از اینجا ثبت نام کنید</a></p>
+      </div>
+    <header>
+        <div class="app">
+            <div class="header">
+              <div class="top-header">
+                <div class="logo-div">
+                  <h1 class="logo-div-h1">Kaparis</h1>
+                  <button type="button" class="btn-bars display-none" onclick="open_nav()">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                </div>
+    
+                <div class="search-box-div">
+                  <i class="fas fa-search"></i
+                  ><input
+                    type="search"
+                    id="search"
+                    name="search"
+                    placeholder="جستجو در فروشگاه کاپاریس ..."
+                  />
+                </div>
+                <div class="button-login-and-card-div">
+                  <div style="width: 100%; text-align: left" class="div-b">
+                    <div class="login-or-singup-button"  onclick="open_login()">
+                      <i class="fas fa-user"></i>
+                      <p>ورود به حساب کاربری</p>
+                    </div>
+                  </div>
+                  <div class="hr-y"></div>
+                  <div class="cart"><i class="fas fa-shopping-cart"></i></div>
+                  <h1 class="logo-div-h1 ss display-none">Kaparis</h1>
+                </div>
+              </div>
+              <div class="bottom-header">
+                <div class="display-none">
+                    <div style="display: grid; grid-template-columns: 80% 20%;">
+                  <div
+                    class="search-box-2 dispaly-inline"
+                    style="width: 100%;"
+                  >
+                    <input
+                      type="search"
+                      id="search2"
+                      name="search"
+                      placeholder="جستجو در فروشگاه کاپاریس ..."
+                    />
+                  </div>
+                  <div
+                    class="login-or-cart-2 dispaly-inline"
+               
+                  >
+                    <div class="dispaly-inline"><a href=""  style="color: #425664;"><i style="display: inline-block;     transform: translateY(5px);
+                        font-size: 20px;
+                        margin-left: 4px;" class="fas fa-sign-in-alt i-login" sty></i><p style="margin-top: 20px; display: inline-block;">ورود</p></a> </div>
+                   
+                    
+                    <div class="hr-y dispaly-inline"></div>
+                    <div class="cart dispaly-inline">
+                      <i class="fas fa-shopping-cart dispaly-inline"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <ul class="ul-menu">
+                    <h1 class="logo-div-h1 display-none menu-logo">کاپاریس</h1>
+                  <li><a href="../../../index.html">صفحه اصلی</a></li>
+                  <li><a href="#">گوشی موبایل</a>
+                  <div class="list-open-Fhone">
+                    <ul>
+                      <li><span>گوشی موبایل</span></li>
+                     <li><a href="#">تمامی گوشی ها</a></li>
+                     <li><span>برند های مختلف گوشی موبایل</span></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+    
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+               
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><a href="#">سامسونگ</a></li>
+                     <li><span>گوشی های تخصصی</span></li>
+                     <li><a href="#">ضد آب</a></li>
+                     <li><a href="#">ضد آب</a></li>
+                     <li><a href="#">ضد آب</a></li>
+                     <li><a href="#">ضد آب</a></li>
+         
+                 
+                     <li><a href="#">ضد آب</a></li>
+                     <li><a href="#">ضد آب</a></li>
+                     <li><span>گوشی ها براساس قیمت</span></li>
+                     <li><a href="#">گوشی تا ۱۲ ملیون</a></li>
+                     <li><a href="#">گوشی تا ۱۲ ملیون</a></li>
+                     <li><a href="#">گوشی تا ۱۲ ملیون</a></li>
+                     <li><a href="#">گوشی تا ۱۲ ملیون</a></li>
+                     <li><a href="#">گوشی تا ۱۲ ملیون</a></li>
+                    </ul>
+                    <div class="img-open-list">
+                      <img src="img/موبایل-removebg-preview.png" alt="">
+                    </div>
+                  </div>
+                  </li>
+                  <li><a href="#">تبلت</a>
+                    <div class="list-open-Fhone">
+                      <ul>
+                        <li><span>تبلت</span></li>
+                       <li><a href="#">تمامی تبلت ها</a></li>
+                       <li><span>برند های مختلف تبلت</span></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+      
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                      
+                      </ul>
+                      <div class="img-open-list">
+                        <img src="img/best-tablet-buying-guide-removebg-preview.png" alt="">
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="#">لوازم صوتی</a>
+                    <div class="list-open-Fhone">
+                      <ul>
+                     
+                       <li><span>برند های مختلف پارتی باکس</span></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+      
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><span>برند های مختلف اسپیکر کوچک</span></li>
+                      </ul>
+                      <div class="img-open-list">
+                        <img src="img/TG113-Bluetooth-Speaker-removebg-preview.png" alt="">
+                      </div>
+                    </div></li>
+                    <li><a href="#">هدفون و هندرفری</a>
+                      <div class="list-open-Fhone">
+                        <ul>
+                       
+                         <li><span>برند های مختلف پارتی باکس</span></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+        
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><a href="#">سامسونگ</a></li>
+                         <li><span>برند های مختلف اسپیکر کوچک</span></li>
+                        </ul>
+                        <div class="img-open-list">
+                          <img src="img/apple-headphone-handsfree-removebg-preview.png" alt="">
+                        </div>
+                      </div></li>
+                  <li><a href="#">لوازم جانبی</a>
+                    <div class="list-open-Fhone">
+                      <ul>
+                     
+                       <li><span>برند های مختلف پارتی باکس</span></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+      
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><span>برند های مختلف اسپیکر کوچک</span></li>
+                      </ul>
+                      <div class="img-open-list">
+                        <img src="img/janebi-b-removebg-preview.png" alt="">
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="#">ساعت هوشمند</a>
+                    <div class="list-open-Fhone">
+                      <ul>
+                     
+                       <li><span>برند های مختلف پارتی باکس</span></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+      
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><a href="#">سامسونگ</a></li>
+                       <li><span>برند های مختلف اسپیکر کوچک</span></li>
+                      </ul>
+                      <div class="img-open-list">
+                        <img src="img/best-smartwatch-smartband-xiaomi-mi-band-5-removebg-preview.png" alt="">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+      <div class="app">
+        <div class="adress-link">
+            <p><a href="../../../index.html">صفحه اصلی</a> / <a href="../">لیست محصولات</a> / گوشی موبایل</p>
+        </div>
+        
+      </div>
+<main>
+<div class="app">
+  <div class="main-product">
+    <div class="main-product-right">
+      <form id="form-filter" action="index.html" method="get">
+      <div class="main-product-right-Price">
+        <h3>قیمت</h3>
+        <p>از</p>
+        <input type="number" name="price-start" id="price-start"  placeholder="0" onchange="change_filter()">
+        <p>تا</p>
+        <input type="number" name="price-start" id="price-start" placeholder="68,000,000" onchange="change_filter()">
+      </div>
+      <div class="form-box-product-filter" id="box_1" onclick="open_filter(0)">
+        <h3>برند ها</h3><span><i class="fas fa-angle-left"></i></span>
+<br>
+<div class="list-box-product">
+
+ <ul>
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="Huawei" id="Huawei" onchange="change_filter()">
+    <label for="Huawei">هواوی</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="iFhone" id="iFhone" onchange="change_filter()">
+    <label for="iFhone">آیفون</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+</ul>
+</div>
+      </div>
+      <div class="form-box-product-filter" id="box_2" onclick="open_filter(1)">
+        <h3>کیفیت دوربین</h3><span><i class="fas fa-angle-left"></i></span>
+<br>
+<div class="list-box-product">
+
+ <ul>
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="Huawei" id="Huawei" onchange="change_filter()">
+    <label for="Huawei">هواوی</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="iFhone" id="iFhone" onchange="change_filter()">
+    <label for="iFhone">آیفون</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+</ul>
+</div>
+      </div>
+      <div class="form-box-product-filter" id="box_3" onclick="open_filter(2)">
+        <h3>حافظه RAM</h3><span><i class="fas fa-angle-left"></i></span>
+<br>
+<div class="list-box-product">
+
+ <ul>
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="Huawei" id="Huawei" onchange="change_filter()">
+    <label for="Huawei">هواوی</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="iFhone" id="iFhone" onchange="change_filter()">
+    <label for="iFhone">آیفون</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+</ul>
+</div>
+      </div>
+      <div class="form-box-product-filter" id="box_4" onclick="open_filter(3)">
+        <h3>حافظه داخلی</h3><span><i class="fas fa-angle-left"></i></span>
+<br>
+<div class="list-box-product">
+
+ <ul>
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="Huawei" id="Huawei" onchange="change_filter()">
+    <label for="Huawei">هواوی</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="iFhone" id="iFhone" onchange="change_filter()">
+    <label for="iFhone">آیفون</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+</ul>
+</div>
+      </div>
+      <div class="form-box-product-filter" id="box_5" onclick="open_filter(4)">
+        <h3>سایز صفحه نمایش</h3><span><i class="fas fa-angle-left"></i></span>
+<br>
+<div class="list-box-product">
+
+ <ul>
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="Huawei" id="Huawei" onchange="change_filter()">
+    <label for="Huawei">هواوی</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="iFhone" id="iFhone" onchange="change_filter()">
+    <label for="iFhone">آیفون</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+  <li>
+    <input type="checkbox" name="sumsung" id="sumsung" onchange="change_filter()">
+    <label for="sumsung">سامسونگ</label>
+  </li> 
+</ul>
+</div>
+      </div>
+    </form>
+    </div>
+    <div class="main-product-left"></div>
+
+  </div>
+</div>
+</main>
+        
+        <footer>
+            <div class="app">
+      <div class="top-footer">
+        <div class="up-and-logo"><div style="width: 100%; text-align: right;"><h1 class="ss" >کاپاریس</h1></div><div style="width: 100%; text-align: left;"><a class="up" href="#top">بازگشت به بالا</a></div></div>
+        <p class="tel">تلفن پشتیبانی<span>:</span> 
+          38901348 - 051
+          <span>|</span>
+          09024747892 - 09926611607
+          <span>|</span>
+          پشتیبانی 24 ساعته
+        </p>
+      
+      </div>
+      <div class="menu-footer">
+        <div class="menu-item-1">
+          <h3>منو</h3>
+          <a href="#">صفحه اصلی</a>
+          <a onclick="open_login()">ورود ، ثبت نام</a>
+          <a href="#">گوشی</a>
+          <a href="#">لوازم جانبی</a>
+        </div>
+        <div class="menu-item-1">
+          <h3>راه های ارتباطی</h3>
+          <a href="#">اینستاگرام</a>
+          <a href="#">تلگرام</a>
+          <a href="#">واتساپ</a>
+          <a href="#">فیسبوک</a>
+          <a href="#">توییتر</a>
+        </div>
+        <div class="menu-item-1">
+          <h3>راهنمای خرید</h3>
+          <a href="#">نحوه ثبت سفارش</a>
+          <a href="#">رویه ارسال سفارش</a>
+          <a href="#">شیوه های پرداخت</a>
+          <a href="#">سایر ...</a>
+        </div>
+        <div class="menu-item-1">
+        <h3>از جدید ترین خبر ها مطلع شوید</h3>
+        <form action="#">
+          <input type="email" name="email" id="email" placeholder="ایمیل خود را وارد کنید">
+          <input type="submit" value="ثبت" id="submit-email">
+        </form>
+        </div>
+      </div>
+      
+      <div class="logo-etemad">  <div class="menu-item-1"><h3 style="width: 100%; text-align: center; margin: 30px 0;">محل لوگو های اعتماد</h3></div>
+            </div>
+            <p class="copy-r">تمامی حقوق این ساعت برای فروشگاه کاپاریس و <a href="http://pouyasabeti.b6b.ir">پویا ثابتی نیری</a> محفوظ است</p>
+          </footer>
+      
+          <script type="text/javascript">
+           
+          </script>
+      
+          <script src="../../../js/app.js"></script>
+        </body>
+      </html>

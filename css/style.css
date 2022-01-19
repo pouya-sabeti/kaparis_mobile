@@ -877,3 +877,121 @@ margin: 10px 0;
 .item-list-2:hover{
     background-size: 110%;
 }
+/* -------------------------------------- */
+.adress-link{
+    direction: rtl;
+    width: 100%;
+    text-align: right;
+    margin: 10px 0;
+}
+.adress-link a{
+text-decoration: none;
+color: #686868;
+}
+.main-product{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 22% 78%;
+
+}
+.main-product-right{
+    width: 100%;
+    height: auto;
+    /* background: red; */
+}
+.main-product-left{
+    width: 100%;
+    height: 500px;
+    /* background: green; */
+}
+.main-product-right-Price{
+    width: 98%;
+    height: auto;
+    border-radius: 15px;
+box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+background: #fff;
+padding: 15px 10px;
+margin-bottom: 10px;
+}
+.main-product-right-Price h3{
+   margin-bottom: 15px;
+   padding-right: 10px;
+   font-size: 16px;
+   color: #454545;
+    width: 100%;
+    text-align: right;
+}
+.main-product-right-Price p{
+    display: inline-block;
+    color: #868686;
+}
+
+.main-product-right-Price input{
+    width: 40%;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0px 5px;
+    text-align: center;
+    border: 1px solid rgb(0 0 0 / 30%);
+}
+.form-box-product-filter{
+   
+    width: 98%;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 15px;
+box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+background: #fff;
+padding: 15px 20px;
+margin-bottom: 10px;
+transition: all .15s;
+}
+.form-box-product-filter i{
+    transform: rotate(0deg);
+    transition: all .15s;
+}
+.open-filter{
+    height: 350px;
+
+}
+.open-filter i{
+    transform: rotate(-90deg);
+}
+.form-box-product-filter h3{
+    font-size: 16px;
+    width: 90%;
+    text-align: right;
+    display: inline-block;
+   color: #454545;
+    transform: translateY(-2px);
+
+}
+.form-box-product-filter span{
+    font-size: 20px;
+    color: var(--color-primary);
+    
+    text-align: left;
+}
+.list-box-product{
+    margin-top: 30px;
+    height: 250px;
+    padding: 0 10px;
+    overflow-y: auto;
+}
+.list-box-product ul{
+    list-style: none;
+}
+.list-box-product ul li{
+    width: 100%;
+    text-align: right;
+    margin: 10px 0;
+}
+.list-box-product ul li label{
+    font-size: 14px;
+    color: #686868;
+}
+.list-box-product ul li input{
+    transform: scale(1.5);
+    margin-left: 5px;
+}
